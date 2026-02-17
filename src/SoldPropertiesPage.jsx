@@ -76,7 +76,7 @@ export default function SoldPropertiesPage() {
       {/* Header */}
       <header className="bg-blue-950 text-white py-6">
         <div className="max-w-6xl mx-auto px-6">
-          <a href="/" className="inline-flex items-center gap-2 text-blue-200 hover:text-white transition mb-4">
+          <a href="#/" className="inline-flex items-center gap-2 text-blue-200 hover:text-white transition mb-4">
             ← Back to Home
           </a>
           <h1 className="text-3xl md:text-4xl font-bold">Our Sold Homes</h1>
@@ -211,7 +211,7 @@ export default function SoldPropertiesPage() {
             Join the {totalSold} families who've already achieved homeownership through owner financing.
           </p>
           <a 
-            href="/"
+            href="#/"
             className="inline-block bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-xl text-lg font-bold transition shadow-lg"
           >
             Schedule a Showing Today
@@ -224,10 +224,11 @@ export default function SoldPropertiesPage() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <p>© 2026 REI REALTY LLC. All rights reserved.</p>
           <p className="mt-2">
-            <a href="/" className="hover:text-white transition">← Back to AmericanDreamCasa.com</a>
+            <a href="#/" className="hover:text-white transition">← Back to AmericanDreamCasa.com</a>
           </p>
         </div>
       </footer>
     </div>
   );
 }
+
